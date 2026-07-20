@@ -1,0 +1,362 @@
+[
+  {
+    "id": "tone_lf_001",
+    "type": "tone_discrimination",
+    "category": "low_vs_falling",
+    "focus": "低聲 vs 降聲",
+    "wordA": {
+      "thai": "ป่า",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "ป้า",
+      "toneName": "降聲 เสียงโท"
+    },
+    "correctAnswer": "ป่า",
+    "speakText": "ป่า",
+    "toneContour": "low",
+    "explanation": "ป่า 是低聲，音高整體偏低；ป้า 是降聲，會從較高的位置往下降。"
+  },
+  {
+    "id": "tone_lf_002",
+    "type": "tone_discrimination",
+    "category": "low_vs_falling",
+    "focus": "低聲 vs 降聲",
+    "wordA": {
+      "thai": "ป่า",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "ป้า",
+      "toneName": "降聲 เสียงโท"
+    },
+    "correctAnswer": "ป้า",
+    "speakText": "ป้า",
+    "toneContour": "falling",
+    "explanation": "ป่า 是低聲，音高整體偏低；ป้า 是降聲，會從較高的位置往下降。"
+  },
+  {
+    "id": "tone_lf_003",
+    "type": "tone_discrimination",
+    "category": "low_vs_falling",
+    "focus": "低聲 vs 降聲",
+    "wordA": {
+      "thai": "ข่า",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "ข้า",
+      "toneName": "降聲 เสียงโท"
+    },
+    "correctAnswer": "ข่า",
+    "speakText": "ข่า",
+    "toneContour": "low",
+    "explanation": "ข่า 是低聲；ข้า 是降聲。低聲偏低，降聲有往下掉的音高走向。"
+  },
+  {
+    "id": "tone_lf_004",
+    "type": "tone_discrimination",
+    "category": "low_vs_falling",
+    "focus": "低聲 vs 降聲",
+    "wordA": {
+      "thai": "ข่า",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "ข้า",
+      "toneName": "降聲 เสียงโท"
+    },
+    "correctAnswer": "ข้า",
+    "speakText": "ข้า",
+    "toneContour": "falling",
+    "explanation": "ข่า 是低聲；ข้า 是降聲。低聲偏低，降聲有往下掉的音高走向。"
+  },
+  {
+    "id": "tone_lf_005",
+    "type": "tone_discrimination",
+    "category": "low_vs_falling",
+    "focus": "低聲 vs 降聲",
+    "wordA": {
+      "thai": "กี่",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "กี้",
+      "toneName": "降聲 เสียงโท"
+    },
+    "correctAnswer": "กี่",
+    "speakText": "กี่",
+    "toneContour": "low",
+    "explanation": "กี่ 是低聲；กี้ 是降聲。請注意降聲有往下掉的音高走向。"
+  },
+  {
+    "id": "tone_lf_006",
+    "type": "tone_discrimination",
+    "category": "low_vs_falling",
+    "focus": "低聲 vs 降聲",
+    "wordA": {
+      "thai": "กี่",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "กี้",
+      "toneName": "降聲 เสียงโท"
+    },
+    "correctAnswer": "กี้",
+    "speakText": "กี้",
+    "toneContour": "falling",
+    "explanation": "กี่ 是低聲；กี้ 是降聲。請注意降聲有往下掉的音高走向。"
+  },
+  {
+    "id": "tone_lf_007",
+    "type": "tone_discrimination",
+    "category": "low_vs_falling",
+    "focus": "低聲 vs 降聲",
+    "wordA": {
+      "thai": "ข่าว",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "ข้าว",
+      "toneName": "降聲 เสียงโท"
+    },
+    "correctAnswer": "ข่าว",
+    "speakText": "ข่าว",
+    "toneContour": "low",
+    "explanation": "ข่าว 是低聲，意思是新聞；ข้าว 是降聲，意思是飯或米。"
+  },
+  {
+    "id": "tone_lf_008",
+    "type": "tone_discrimination",
+    "category": "low_vs_falling",
+    "focus": "低聲 vs 降聲",
+    "wordA": {
+      "thai": "ข่าว",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "ข้าว",
+      "toneName": "降聲 เสียงโท"
+    },
+    "correctAnswer": "ข้าว",
+    "speakText": "ข้าว",
+    "toneContour": "falling",
+    "explanation": "ข่าว 是低聲，意思是新聞；ข้าว 是降聲，意思是飯或米。"
+  },
+  {
+    "id": "tone_lf_009",
+    "type": "tone_discrimination",
+    "category": "low_vs_falling",
+    "focus": "低聲 vs 降聲",
+    "wordA": {
+      "thai": "ห่าง",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "ห้าง",
+      "toneName": "降聲 เสียงโท"
+    },
+    "correctAnswer": "ห่าง",
+    "speakText": "ห่าง",
+    "toneContour": "low",
+    "explanation": "ห่าง 是低聲；ห้าง 是降聲。請注意降聲有往下掉的感覺。"
+  },
+  {
+    "id": "tone_lf_010",
+    "type": "tone_discrimination",
+    "category": "low_vs_falling",
+    "focus": "低聲 vs 降聲",
+    "wordA": {
+      "thai": "ห่าง",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "ห้าง",
+      "toneName": "降聲 เสียงโท"
+    },
+    "correctAnswer": "ห้าง",
+    "speakText": "ห้าง",
+    "toneContour": "falling",
+    "explanation": "ห่าง 是低聲；ห้าง 是降聲。請注意降聲有往下掉的感覺。"
+  },
+  {
+    "id": "tone_lf_011",
+    "type": "tone_discrimination",
+    "category": "low_vs_falling",
+    "focus": "低聲 vs 降聲",
+    "wordA": {
+      "thai": "สี่",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "ซี้",
+      "toneName": "降聲 เสียงโท"
+    },
+    "correctAnswer": "สี่",
+    "speakText": "สี่",
+    "toneContour": "low",
+    "explanation": "สี่ 是低聲；ซี้ 是降聲。請先聽整體音高，再聽音高走向。"
+  },
+  {
+    "id": "tone_lf_012",
+    "type": "tone_discrimination",
+    "category": "low_vs_falling",
+    "focus": "低聲 vs 降聲",
+    "wordA": {
+      "thai": "สี่",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "ซี้",
+      "toneName": "降聲 เสียงโท"
+    },
+    "correctAnswer": "ซี้",
+    "speakText": "ซี้",
+    "toneContour": "falling",
+    "explanation": "สี่ 是低聲；ซี้ 是降聲。請先聽整體音高，再聽音高走向。"
+  },
+  {
+    "id": "tone_mr_001",
+    "type": "tone_discrimination",
+    "category": "mid_vs_rising",
+    "focus": "中聲 vs 升聲",
+    "wordA": {
+      "thai": "นา",
+      "toneName": "中聲 เสียงสามัญ"
+    },
+    "wordB": {
+      "thai": "หนา",
+      "toneName": "升聲 เสียงจัตวา"
+    },
+    "correctAnswer": "นา",
+    "speakText": "นา",
+    "toneContour": "mid",
+    "explanation": "นา 是中聲，音高較平穩；หนา 是升聲，會從較低的位置往上升。"
+  },
+  {
+    "id": "tone_mr_002",
+    "type": "tone_discrimination",
+    "category": "mid_vs_rising",
+    "focus": "中聲 vs 升聲",
+    "wordA": {
+      "thai": "นา",
+      "toneName": "中聲 เสียงสามัญ"
+    },
+    "wordB": {
+      "thai": "หนา",
+      "toneName": "升聲 เสียงจัตวา"
+    },
+    "correctAnswer": "หนา",
+    "speakText": "หนา",
+    "toneContour": "rising",
+    "explanation": "นา 是中聲，音高較平穩；หนา 是升聲，會從較低的位置往上升。"
+  },
+  {
+    "id": "tone_mr_003",
+    "type": "tone_discrimination",
+    "category": "mid_vs_rising",
+    "focus": "中聲 vs 升聲",
+    "wordA": {
+      "thai": "คา",
+      "toneName": "中聲 เสียงสามัญ"
+    },
+    "wordB": {
+      "thai": "ขา",
+      "toneName": "升聲 เสียงจัตวา"
+    },
+    "correctAnswer": "คา",
+    "speakText": "คา",
+    "toneContour": "mid",
+    "explanation": "คา 是中聲，音高較平穩；ขา 是升聲，會從較低的位置往上升。"
+  },
+  {
+    "id": "tone_mr_004",
+    "type": "tone_discrimination",
+    "category": "mid_vs_rising",
+    "focus": "中聲 vs 升聲",
+    "wordA": {
+      "thai": "คา",
+      "toneName": "中聲 เสียงสามัญ"
+    },
+    "wordB": {
+      "thai": "ขา",
+      "toneName": "升聲 เสียงจัตวา"
+    },
+    "correctAnswer": "ขา",
+    "speakText": "ขา",
+    "toneContour": "rising",
+    "explanation": "คา 是中聲，音高較平穩；ขา 是升聲，會從較低的位置往上升。"
+  },
+  {
+    "id": "tone_lr_001",
+    "type": "tone_discrimination",
+    "category": "low_vs_rising",
+    "focus": "低聲 vs 升聲",
+    "wordA": {
+      "thai": "ข่าว",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "ขาว",
+      "toneName": "升聲 เสียงจัตวา"
+    },
+    "correctAnswer": "ข่าว",
+    "speakText": "ข่าว",
+    "toneContour": "low",
+    "explanation": "ข่าว 是低聲，意思是新聞；ขาว 是升聲，意思是白色。"
+  },
+  {
+    "id": "tone_lr_002",
+    "type": "tone_discrimination",
+    "category": "low_vs_rising",
+    "focus": "低聲 vs 升聲",
+    "wordA": {
+      "thai": "ข่าว",
+      "toneName": "低聲 เสียงเอก"
+    },
+    "wordB": {
+      "thai": "ขาว",
+      "toneName": "升聲 เสียงจัตวา"
+    },
+    "correctAnswer": "ขาว",
+    "speakText": "ขาว",
+    "toneContour": "rising",
+    "explanation": "ข่าว 是低聲，意思是新聞；ขาว 是升聲，意思是白色。"
+  },
+  {
+    "id": "tone_fr_001",
+    "type": "tone_discrimination",
+    "category": "falling_vs_rising",
+    "focus": "降聲 vs 升聲",
+    "wordA": {
+      "thai": "ข้าว",
+      "toneName": "降聲 เสียงโท"
+    },
+    "wordB": {
+      "thai": "ขาว",
+      "toneName": "升聲 เสียงจัตวา"
+    },
+    "correctAnswer": "ข้าว",
+    "speakText": "ข้าว",
+    "toneContour": "falling",
+    "explanation": "ข้าว 是降聲，意思是飯或米；ขาว 是升聲，意思是白色。"
+  },
+  {
+    "id": "tone_fr_002",
+    "type": "tone_discrimination",
+    "category": "falling_vs_rising",
+    "focus": "降聲 vs 升聲",
+    "wordA": {
+      "thai": "ข้าว",
+      "toneName": "降聲 เสียงโท"
+    },
+    "wordB": {
+      "thai": "ขาว",
+      "toneName": "升聲 เสียงจัตวา"
+    },
+    "correctAnswer": "ขาว",
+    "speakText": "ขาว",
+    "toneContour": "rising",
+    "explanation": "ข้าว 是降聲，意思是飯或米；ขาว 是升聲，意思是白色。"
+  }
+]

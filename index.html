@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#123f3a" />
+  <title>泰語聽辨教室｜發音與學習紀錄</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav" aria-label="主要導覽">
+    <a class="brand" href="#home"><span>TH</span> 泰語聽辨教室</a>
+    <button id="menuBtn" class="menu-btn" aria-label="開啟選單" aria-expanded="false">☰</button>
+    <div id="navLinks" class="nav-links">
+      <a href="#home">首頁</a><a href="#account">學生帳號</a><a href="#minimal">清濁音</a><a href="#tones">聲調</a><a href="#records">學習報告</a><a href="#faq">說明</a>
+    </div>
+    <div id="navStudent" class="nav-student">尚未登入</div>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero section">
+    <div class="hero-copy">
+      <p class="eyebrow">ฟัง · แยก · พูด</p>
+      <h1>先聽準，<br><em>再說對。</em></h1>
+      <p class="hero-lead">針對台灣學習者設計的泰語清濁音與聲調訓練。已上傳的真人音檔優先，沒有真人音檔時才使用裝置的泰語 AI 語音。</p>
+      <div class="hero-actions"><a class="btn primary" href="#account">建立學生帳號</a><a class="btn ghost" href="#minimal">直接開始練習</a></div>
+      <div class="trust-row"><span>✓ 不改變音高</span><span>✓ 題目不洩漏答案</span><span>✓ 紀錄可備份</span></div>
+    </div>
+    <aside class="sound-card" aria-labelledby="soundTitle">
+      <div class="sound-head"><span class="sound-icon">◖</span><div><p class="kicker">AUDIO SOURCE</p><h2 id="soundTitle">發音來源</h2></div></div>
+      <div id="audioSourceStatus" class="source-status">正在檢查音檔…</div>
+      <label for="voiceSelect">備援泰語語音</label>
+      <select id="voiceSelect"><option value="">正在載入語音…</option></select>
+      <label for="playbackRate">播放速度</label>
+      <select id="playbackRate"><option value="0.82">標準練習 0.82×</option><option value="0.68">慢速辨音 0.68×</option><option value="1">自然速度 1×</option></select>
+      <p class="helper">為保留泰語聲調，系統不再用 pitch 模擬男女聲。老師可把母語者錄音放進 <code>assets/audio</code>。</p>
+    </aside>
+  </section>
+
+  <section id="account" class="section compact-section">
+    <div class="section-title"><p class="eyebrow">PARTICIPANT ID</p><h2>每位受試者，一份獨立紀錄</h2><p>輸入受試者編號（例如 A01）即可開始；第一次使用會自動建立，之後輸入相同編號即可繼續。</p></div>
+    <div class="account-grid">
+      <article class="panel login-panel">
+        <label for="participantId">受試者編號</label>
+        <input id="participantId" maxlength="12" autocomplete="username" autocapitalize="characters" spellcheck="false" placeholder="例如：A01" aria-describedby="participantHelp" />
+        <p id="participantHelp" class="helper">可使用英文字母與數字。系統會自動轉為大寫並移除空格。</p>
+        <button id="loginBtn" class="btn primary wide">進入練習</button>
+        <p id="loginStatus" class="form-status" aria-live="polite"></p>
+      </article>
+      <article class="panel profile-panel">
+        <p class="kicker">CURRENT PARTICIPANT</p><div id="currentProfile"></div>
+        <button id="logoutBtn" class="btn ghost small">登出</button>
+        <p class="privacy-note">資料只儲存在目前瀏覽器。請固定使用唯一的受試者編號，避免不同受試者共用同一編號。</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="minimal" class="section practice-section">
+    <div class="section-title"><p class="eyebrow">MINIMAL PAIRS</p><h2>清濁音與相近子音</h2><p>先播放、再作答；答案會在送出後才顯示。</p></div>
+    <div class="toolbar"><label for="minimalFilter">題組</label><select id="minimalFilter"></select><button id="minimalShuffle" class="btn ghost small">隨機排序</button><div id="minimalCount" class="count-pill"></div></div>
+    <div id="minimalQuestions" class="question-list"></div>
+  </section>
+
+  <section id="tones" class="section practice-section alt-bg">
+    <div class="section-title"><p class="eyebrow">TONE DISCRIMINATION</p><h2>泰語聲調聽辨</h2><p>比較低聲、降聲、升聲與中聲的完整音高走向。</p></div>
+    <div class="toolbar"><label for="toneFilter">題組</label><select id="toneFilter"></select><button id="toneShuffle" class="btn ghost small">隨機排序</button><div id="toneCount" class="count-pill"></div></div>
+    <div id="toneQuestions" class="question-list"></div>
+  </section>
+
+  <section id="records" class="section">
+    <div class="section-title"><p class="eyebrow">LEARNING REPORT</p><h2>看見進步，也找出盲點</h2><p>統計目前受試者的作答、易錯題組與登入活動。</p></div>
+    <div id="summaryCards" class="summary-grid"></div>
+    <div class="report-grid">
+      <article class="panel"><div class="panel-title"><h3>題組表現</h3><span>依作答紀錄</span></div><div id="categoryReport"></div></article>
+      <article class="panel"><div class="panel-title"><h3>最近活動</h3><span>最新 30 筆</span></div><div id="recordList"></div></article>
+    </div>
+    <div class="data-actions"><button id="exportCsvBtn" class="btn primary small">匯出目前受試者 CSV</button><button id="backupBtn" class="btn ghost small">備份全部資料 JSON</button><label class="btn ghost small file-btn">還原備份<input id="restoreInput" type="file" accept="application/json" /></label><button id="resetBtn" class="btn danger small">清除目前受試者紀錄</button></div>
+  </section>
+
+  <section id="faq" class="section compact-section"><div class="section-title"><p class="eyebrow">NOTES</p><h2>使用說明</h2></div><div id="faqList" class="faq-list"></div></section>
+</main>
+<footer><strong>泰語聽辨教室</strong><p>真人審核音檔優先 · 泰語 TTS 備援 · 學習紀錄可攜</p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,614 @@
+[
+  {
+    "id": "vc_bp_001",
+    "type": "minimal_pair",
+    "category": "บ_vs_ป",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "บาน",
+      "feature": "濁音 บ /b/"
+    },
+    "wordB": {
+      "thai": "ปาน",
+      "feature": "不送氣清音 ป /p/"
+    },
+    "correctAnswer": "บาน",
+    "speakText": "บาน",
+    "explanation": "บ 是濁音，發音時聲帶會震動；ป 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_bp_002",
+    "type": "minimal_pair",
+    "category": "บ_vs_ป",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "บาน",
+      "feature": "濁音 บ /b/"
+    },
+    "wordB": {
+      "thai": "ปาน",
+      "feature": "不送氣清音 ป /p/"
+    },
+    "correctAnswer": "ปาน",
+    "speakText": "ปาน",
+    "explanation": "บ 是濁音，發音時聲帶會震動；ป 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_bp_003",
+    "type": "minimal_pair",
+    "category": "บ_vs_ป",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "โบ",
+      "feature": "濁音 บ /b/"
+    },
+    "wordB": {
+      "thai": "โป",
+      "feature": "不送氣清音 ป /p/"
+    },
+    "correctAnswer": "โบ",
+    "speakText": "โบ",
+    "explanation": "บ 是濁音，發音時聲帶會震動；ป 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_bp_004",
+    "type": "minimal_pair",
+    "category": "บ_vs_ป",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "โบ",
+      "feature": "濁音 บ /b/"
+    },
+    "wordB": {
+      "thai": "โป",
+      "feature": "不送氣清音 ป /p/"
+    },
+    "correctAnswer": "โป",
+    "speakText": "โป",
+    "explanation": "บ 是濁音，發音時聲帶會震動；ป 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_bp_005",
+    "type": "minimal_pair",
+    "category": "บ_vs_ป",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ใบ",
+      "feature": "濁音 บ /b/"
+    },
+    "wordB": {
+      "thai": "ไป",
+      "feature": "不送氣清音 ป /p/"
+    },
+    "correctAnswer": "ใบ",
+    "speakText": "ใบ",
+    "explanation": "บ 是濁音，發音時聲帶會震動；ป 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_bp_006",
+    "type": "minimal_pair",
+    "category": "บ_vs_ป",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ใบ",
+      "feature": "濁音 บ /b/"
+    },
+    "wordB": {
+      "thai": "ไป",
+      "feature": "不送氣清音 ป /p/"
+    },
+    "correctAnswer": "ไป",
+    "speakText": "ไป",
+    "explanation": "บ 是濁音，發音時聲帶會震動；ป 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_bp_007",
+    "type": "minimal_pair",
+    "category": "บ_vs_ป",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "บ้า",
+      "feature": "濁音 บ /b/，降聲"
+    },
+    "wordB": {
+      "thai": "ป้า",
+      "feature": "不送氣清音 ป /p/，降聲"
+    },
+    "correctAnswer": "บ้า",
+    "speakText": "บ้า",
+    "explanation": "บ้า 與 ป้า 都是降聲，但開頭子音不同。บ 是濁音；ป 是不送氣清音。"
+  },
+  {
+    "id": "vc_bp_008",
+    "type": "minimal_pair",
+    "category": "บ_vs_ป",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "บ้า",
+      "feature": "濁音 บ /b/，降聲"
+    },
+    "wordB": {
+      "thai": "ป้า",
+      "feature": "不送氣清音 ป /p/，降聲"
+    },
+    "correctAnswer": "ป้า",
+    "speakText": "ป้า",
+    "explanation": "บ้า 與 ป้า 都是降聲，但開頭子音不同。บ 是濁音；ป 是不送氣清音。"
+  },
+  {
+    "id": "vc_bp_009",
+    "type": "minimal_pair",
+    "category": "บ_vs_ป",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "บิน",
+      "feature": "濁音 บ /b/"
+    },
+    "wordB": {
+      "thai": "ปิน",
+      "feature": "不送氣清音 ป /p/"
+    },
+    "correctAnswer": "บิน",
+    "speakText": "บิน",
+    "explanation": "請注意聲帶震動。บ 有濁音感；ป 沒有明顯送氣，也沒有聲帶震動。"
+  },
+  {
+    "id": "vc_bp_010",
+    "type": "minimal_pair",
+    "category": "บ_vs_ป",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "บิน",
+      "feature": "濁音 บ /b/"
+    },
+    "wordB": {
+      "thai": "ปิน",
+      "feature": "不送氣清音 ป /p/"
+    },
+    "correctAnswer": "ปิน",
+    "speakText": "ปิน",
+    "explanation": "請注意聲帶震動。บ 有濁音感；ป 沒有明顯送氣，也沒有聲帶震動。"
+  },
+  {
+    "id": "vc_bp_011",
+    "type": "minimal_pair",
+    "category": "บ_vs_ป",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "บน",
+      "feature": "濁音 บ /b/"
+    },
+    "wordB": {
+      "thai": "ปน",
+      "feature": "不送氣清音 ป /p/"
+    },
+    "correctAnswer": "บน",
+    "speakText": "บน",
+    "explanation": "請注意聲帶震動。บ 有濁音感；ป 沒有明顯送氣，也沒有聲帶震動。"
+  },
+  {
+    "id": "vc_bp_012",
+    "type": "minimal_pair",
+    "category": "บ_vs_ป",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "บน",
+      "feature": "濁音 บ /b/"
+    },
+    "wordB": {
+      "thai": "ปน",
+      "feature": "不送氣清音 ป /p/"
+    },
+    "correctAnswer": "ปน",
+    "speakText": "ปน",
+    "explanation": "請注意聲帶震動。บ 有濁音感；ป 沒有明顯送氣，也沒有聲帶震動。"
+  },
+  {
+    "id": "vc_dt_001",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ดวง",
+      "feature": "濁音 ด /d/"
+    },
+    "wordB": {
+      "thai": "ตวง",
+      "feature": "不送氣清音 ต /t/"
+    },
+    "correctAnswer": "ดวง",
+    "speakText": "ดวง",
+    "explanation": "ด 是濁音，發音時聲帶會震動；ต 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_dt_002",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ดวง",
+      "feature": "濁音 ด /d/"
+    },
+    "wordB": {
+      "thai": "ตวง",
+      "feature": "不送氣清音 ต /t/"
+    },
+    "correctAnswer": "ตวง",
+    "speakText": "ตวง",
+    "explanation": "ด 是濁音，發音時聲帶會震動；ต 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_dt_003",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ด่า",
+      "feature": "濁音 ด /d/，低聲"
+    },
+    "wordB": {
+      "thai": "ต่า",
+      "feature": "不送氣清音 ต /t/，低聲"
+    },
+    "correctAnswer": "ด่า",
+    "speakText": "ด่า",
+    "explanation": "ด่า 與 ต่า 的主要差異在開頭子音。ด 是濁音；ต 是不送氣清音。"
+  },
+  {
+    "id": "vc_dt_004",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ด่า",
+      "feature": "濁音 ด /d/，低聲"
+    },
+    "wordB": {
+      "thai": "ต่า",
+      "feature": "不送氣清音 ต /t/，低聲"
+    },
+    "correctAnswer": "ต่า",
+    "speakText": "ต่า",
+    "explanation": "ด่า 與 ต่า 的主要差異在開頭子音。ด 是濁音；ต 是不送氣清音。"
+  },
+  {
+    "id": "vc_dt_005",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ดี",
+      "feature": "濁音 ด /d/"
+    },
+    "wordB": {
+      "thai": "ตี",
+      "feature": "不送氣清音 ต /t/"
+    },
+    "correctAnswer": "ดี",
+    "speakText": "ดี",
+    "explanation": "ด 是濁音，發音時聲帶會震動；ต 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_dt_006",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ดี",
+      "feature": "濁音 ด /d/"
+    },
+    "wordB": {
+      "thai": "ตี",
+      "feature": "不送氣清音 ต /t/"
+    },
+    "correctAnswer": "ตี",
+    "speakText": "ตี",
+    "explanation": "ด 是濁音，發音時聲帶會震動；ต 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_dt_007",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ดึง",
+      "feature": "濁音 ด /d/"
+    },
+    "wordB": {
+      "thai": "ตึง",
+      "feature": "不送氣清音 ต /t/"
+    },
+    "correctAnswer": "ดึง",
+    "speakText": "ดึง",
+    "explanation": "ด 是濁音，發音時聲帶會震動；ต 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_dt_008",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ดึง",
+      "feature": "濁音 ด /d/"
+    },
+    "wordB": {
+      "thai": "ตึง",
+      "feature": "不送氣清音 ต /t/"
+    },
+    "correctAnswer": "ตึง",
+    "speakText": "ตึง",
+    "explanation": "ด 是濁音，發音時聲帶會震動；ต 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_dt_009",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ดอง",
+      "feature": "濁音 ด /d/"
+    },
+    "wordB": {
+      "thai": "ตอง",
+      "feature": "不送氣清音 ต /t/"
+    },
+    "correctAnswer": "ดอง",
+    "speakText": "ดอง",
+    "explanation": "ด 是濁音，發音時聲帶會震動；ต 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_dt_010",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ดอง",
+      "feature": "濁音 ด /d/"
+    },
+    "wordB": {
+      "thai": "ตอง",
+      "feature": "不送氣清音 ต /t/"
+    },
+    "correctAnswer": "ตอง",
+    "speakText": "ตอง",
+    "explanation": "ด 是濁音，發音時聲帶會震動；ต 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_dt_011",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "เดา",
+      "feature": "濁音 ด /d/"
+    },
+    "wordB": {
+      "thai": "เตา",
+      "feature": "不送氣清音 ต /t/"
+    },
+    "correctAnswer": "เดา",
+    "speakText": "เดา",
+    "explanation": "ด 是濁音，發音時聲帶會震動；ต 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_dt_012",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "เดา",
+      "feature": "濁音 ด /d/"
+    },
+    "wordB": {
+      "thai": "เตา",
+      "feature": "不送氣清音 ต /t/"
+    },
+    "correctAnswer": "เตา",
+    "speakText": "เตา",
+    "explanation": "ด 是濁音，發音時聲帶會震動；ต 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_dt_013",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ดู",
+      "feature": "濁音 ด /d/"
+    },
+    "wordB": {
+      "thai": "ตู",
+      "feature": "不送氣清音 ต /t/"
+    },
+    "correctAnswer": "ดู",
+    "speakText": "ดู",
+    "explanation": "ด 是濁音，發音時聲帶會震動；ต 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_dt_014",
+    "type": "minimal_pair",
+    "category": "ด_vs_ต",
+    "focus": "濁音 vs 不送氣清音",
+    "wordA": {
+      "thai": "ดู",
+      "feature": "濁音 ด /d/"
+    },
+    "wordB": {
+      "thai": "ตู",
+      "feature": "不送氣清音 ต /t/"
+    },
+    "correctAnswer": "ตู",
+    "speakText": "ตู",
+    "explanation": "ด 是濁音，發音時聲帶會震動；ต 是不送氣清音，氣流不強，但聲帶不震動。"
+  },
+  {
+    "id": "vc_ngn_001",
+    "type": "minimal_pair",
+    "category": "ง_vs_น",
+    "focus": "詞首鼻音對比",
+    "wordA": {
+      "thai": "งา",
+      "feature": "詞首 /ŋ/"
+    },
+    "wordB": {
+      "thai": "นา",
+      "feature": "詞首 /n/"
+    },
+    "correctAnswer": "งา",
+    "speakText": "งา",
+    "explanation": "ง 是 /ŋ/，舌根靠近軟顎；น 是 /n/，舌尖靠近上方。ง 在詞首對中文母語者比較困難。"
+  },
+  {
+    "id": "vc_ngn_002",
+    "type": "minimal_pair",
+    "category": "ง_vs_น",
+    "focus": "詞首鼻音對比",
+    "wordA": {
+      "thai": "งา",
+      "feature": "詞首 /ŋ/"
+    },
+    "wordB": {
+      "thai": "นา",
+      "feature": "詞首 /n/"
+    },
+    "correctAnswer": "นา",
+    "speakText": "นา",
+    "explanation": "ง 是 /ŋ/，舌根靠近軟顎；น 是 /n/，舌尖靠近上方。ง 在詞首對中文母語者比較困難。"
+  },
+  {
+    "id": "vc_ngn_003",
+    "type": "minimal_pair",
+    "category": "ง_vs_น",
+    "focus": "詞首鼻音對比",
+    "wordA": {
+      "thai": "งู",
+      "feature": "詞首 /ŋ/"
+    },
+    "wordB": {
+      "thai": "นู",
+      "feature": "詞首 /n/"
+    },
+    "correctAnswer": "งู",
+    "speakText": "งู",
+    "explanation": "ง 是 /ŋ/，舌根靠近軟顎；น 是 /n/，舌尖靠近上方。ง 在詞首對中文母語者比較困難。"
+  },
+  {
+    "id": "vc_ngn_004",
+    "type": "minimal_pair",
+    "category": "ง_vs_น",
+    "focus": "詞首鼻音對比",
+    "wordA": {
+      "thai": "งู",
+      "feature": "詞首 /ŋ/"
+    },
+    "wordB": {
+      "thai": "นู",
+      "feature": "詞首 /n/"
+    },
+    "correctAnswer": "นู",
+    "speakText": "นู",
+    "explanation": "ง 是 /ŋ/，舌根靠近軟顎；น 是 /n/，舌尖靠近上方。ง 在詞首對中文母語者比較困難。"
+  },
+  {
+    "id": "vc_rl_001",
+    "type": "minimal_pair",
+    "category": "ร_vs_ล",
+    "focus": "ร / ล 對比",
+    "wordA": {
+      "thai": "รัก",
+      "feature": "ร，舌頭動作較明顯"
+    },
+    "wordB": {
+      "thai": "ลัก",
+      "feature": "ล，側音"
+    },
+    "correctAnswer": "รัก",
+    "speakText": "รัก",
+    "explanation": "ร 的舌頭動作較明顯，可接近彈舌或顫音；ล 是側音，氣流會從舌頭兩側通過。"
+  },
+  {
+    "id": "vc_rl_002",
+    "type": "minimal_pair",
+    "category": "ร_vs_ล",
+    "focus": "ร / ล 對比",
+    "wordA": {
+      "thai": "รัก",
+      "feature": "ร，舌頭動作較明顯"
+    },
+    "wordB": {
+      "thai": "ลัก",
+      "feature": "ล，側音"
+    },
+    "correctAnswer": "ลัก",
+    "speakText": "ลัก",
+    "explanation": "ร 的舌頭動作較明顯，可接近彈舌或顫音；ล 是側音，氣流會從舌頭兩側通過。"
+  },
+  {
+    "id": "vc_rl_003",
+    "type": "minimal_pair",
+    "category": "ร_vs_ล",
+    "focus": "ร / ล 對比",
+    "wordA": {
+      "thai": "ราย",
+      "feature": "ร，舌頭動作較明顯"
+    },
+    "wordB": {
+      "thai": "ลาย",
+      "feature": "ล，側音"
+    },
+    "correctAnswer": "ราย",
+    "speakText": "ราย",
+    "explanation": "ร 的舌頭動作較明顯，可接近彈舌或顫音；ล 是側音，氣流會從舌頭兩側通過。"
+  },
+  {
+    "id": "vc_rl_004",
+    "type": "minimal_pair",
+    "category": "ร_vs_ล",
+    "focus": "ร / ล 對比",
+    "wordA": {
+      "thai": "ราย",
+      "feature": "ร，舌頭動作較明顯"
+    },
+    "wordB": {
+      "thai": "ลาย",
+      "feature": "ล，側音"
+    },
+    "correctAnswer": "ลาย",
+    "speakText": "ลาย",
+    "explanation": "ร 的舌頭動作較明顯，可接近彈舌或顫音；ล 是側音，氣流會從舌頭兩側通過。"
+  },
+  {
+    "id": "vc_rl_005",
+    "type": "minimal_pair",
+    "category": "ร_vs_ล",
+    "focus": "ร / ล 對比",
+    "wordA": {
+      "thai": "รวย",
+      "feature": "ร，舌頭動作較明顯"
+    },
+    "wordB": {
+      "thai": "ลวย",
+      "feature": "ล，側音"
+    },
+    "correctAnswer": "รวย",
+    "speakText": "รวย",
+    "explanation": "ร 的舌頭動作較明顯，可接近彈舌或顫音；ล 是側音，氣流會從舌頭兩側通過。"
+  },
+  {
+    "id": "vc_rl_006",
+    "type": "minimal_pair",
+    "category": "ร_vs_ล",
+    "focus": "ร / ล 對比",
+    "wordA": {
+      "thai": "รวย",
+      "feature": "ร，舌頭動作較明顯"
+    },
+    "wordB": {
+      "thai": "ลวย",
+      "feature": "ล，側音"
+    },
+    "correctAnswer": "ลวย",
+    "speakText": "ลวย",
+    "explanation": "ร 的舌頭動作較明顯，可接近彈舌或顫音；ล 是側音，氣流會從舌頭兩側通過。"
+  }
+]
